@@ -1,6 +1,10 @@
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
+# homebrew settings
+export HOMEBREW_NO_ANALYTICS=1
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Custom themes may be added to ~/.oh-my-zsh/custom/
