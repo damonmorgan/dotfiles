@@ -42,7 +42,7 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 # zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 fpath=(~/.zsh/completions $fpath)
-source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
+source /opt/homebrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
 # heroku completions
 eval "$(heroku autocomplete:script zsh)"
