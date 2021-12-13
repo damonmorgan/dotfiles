@@ -44,6 +44,9 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 fpath=(~/.zsh/completions $fpath)
 source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
+# heroku completions
+eval "$(heroku autocomplete:script zsh)"
+
 # Bundler > 1.5.0
 export BUNDLE_JOBS=$(sysctl -n hw.ncpu)
 
