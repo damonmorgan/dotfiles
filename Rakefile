@@ -87,6 +87,6 @@ def install_oh_my_zsh
     puts "found ~/.oh-my-zsh"
   else
     puts "installing oh-my-zsh"
-    system %Q{git clone git://github.com/robbyrussell/oh-my-zsh.git "$HOME/.oh-my-zsh"}
+    system %Q{sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --keep-zshrc}
   end
 end
