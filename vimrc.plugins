@@ -29,6 +29,7 @@ Plugin 'elzr/vim-json'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'junegunn/fzf.vim'
 Plugin 'Lokaltog/powerline', {'rtp':  'powerline/bindings/vim'}
+Plugin 'github/copilot.vim'
 
 call vundle#end()
 filetype on
